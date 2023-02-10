@@ -1,0 +1,20 @@
+-- Tablo Oluşturma
+
+CREATE TABLE employee
+(
+	id INTEGER,
+	name VARCHAR(50),
+	birthday DATE,
+	email VARCHAR(100)
+);
+
+-- Güncelleme
+
+UPDATE employee
+SET email='deneme',
+	  birthday='1111-11-11'
+WHERE name ILIKE 'a%a%';
+
+-- Silme
+
+DELETE FROM employee WHERE email='deneme';
