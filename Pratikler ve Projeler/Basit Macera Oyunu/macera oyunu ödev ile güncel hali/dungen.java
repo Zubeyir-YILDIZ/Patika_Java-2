@@ -7,9 +7,4 @@ public class dungen extends Location
     {
         super(locName="maden");
     }
-    public int posibilityMonsterCount()
-    {
-        return 0;
-    }
-
 }
